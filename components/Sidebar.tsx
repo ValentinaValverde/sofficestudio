@@ -3,11 +3,7 @@ import { sidebarBlockData } from '@/lib/constants';
 
 export default function Sidebar() {
   return (
-    <div className="w-full md:w-1/3 h-full border border-white ">
-      <div className="p-6">
-        <p>Services</p>
-      </div>
-
+    <div className="w-full md:w-1/3 h-auto border border-white ">
       {sidebarBlockData.map((data, i) => {
         return (
           <div key={i}>

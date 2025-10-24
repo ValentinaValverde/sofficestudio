@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+
       <div className="flex flex-col md:flex-row justify-start h-full">
         <MainBlock />
         <Sidebar />
