@@ -10,8 +10,8 @@ export default function SidebarBlock({
   link: string;
 }) {
   return (
-    <Link href={link}>
-      <div className="border border-white p-6 hover:bg-white hover:text-black duration-500 flex flex-col justify-end h-[300px]">
+    <Link href={link} className="w-full h-full">
+      <div className="border border-white p-6 hover:bg-white hover:text-black duration-500 flex flex-col justify-end h-full">
         <p>{title}</p>
         <p>{description}</p>
       </div>
