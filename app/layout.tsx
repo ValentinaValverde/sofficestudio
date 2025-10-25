@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bricolageGrotesque.variable} ${publicSans.variable} antialiased min-h-screen flex flex-col cursor-none`}
+        className={`${bricolageGrotesque.variable} ${publicSans.variable} antialiased min-h-screen flex flex-col cursor-none overflow-x-hidden`}
       >
         <CustomCursor />
         <img
