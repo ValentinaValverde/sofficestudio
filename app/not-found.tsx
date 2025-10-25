@@ -9,7 +9,11 @@ export default function NotFound() {
     <div className=" w-full flex flex-1 flex-col justify-center items-center gap-2 p-6 border border-white">
       <div className="flex flex-row items-center">
         <span className="text-4xl font-semibold !font-mono">4</span>
-        <AsteriskSimple size={32} />
+        <AsteriskSimple
+          size={32}
+          weight="bold"
+          className="hover:rotate-180 transition-transform ease-in-out duration-600"
+        />
         <span className="text-4xl font-semibold !font-mono">4</span>
       </div>
 
