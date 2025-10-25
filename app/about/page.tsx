@@ -19,7 +19,7 @@ export default function Home() {
             <img
               src="/valentina-valverde.png"
               alt="Photo of lead (and only) developer, Valentina Valverde"
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[500px] object-cover object-[0%_30%]"
             />
           </div>
         </div>
