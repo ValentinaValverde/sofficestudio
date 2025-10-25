@@ -12,3 +12,30 @@ export const sidebarBlockData = [
     link: '/design',
   },
 ];
+
+export const developmentPageData = [
+  {
+    title: 'ChippAI',
+    description:
+      'Redesigned Chipp’s core builder into a cleaner, more intuitive space built for speed and clarity.', // or usability
+    link: '/development',
+    imageUrl:
+      'https://i.pinimg.com/1200x/30/07/b6/3007b69fdc5776e75cc7b0dec1672ec1.jpg',
+  },
+  {
+    title: 'ChippAI HQ',
+    description:
+      'Built a highlight of the Chipp platform, a home for creators to share or sell their best work.',
+    link: '/development',
+    imageUrl:
+      'https://i.pinimg.com/736x/06/4c/f6/064cf60bdff38c7be9ac9c39bd3213c2.jpg',
+  },
+  {
+    title: 'Rabbit Hole Digital',
+    description:
+      'Reimagined a full music analytics platform with modern UI, responsive layouts, and rebuilt core flows.',
+    link: '/development',
+    imageUrl:
+      'https://i.pinimg.com/736x/06/4c/f6/064cf60bdff38c7be9ac9c39bd3213c2.jpg',
+  },
+];
