@@ -8,7 +8,15 @@ export default function Footer() {
         <Link href="/contact">Contact</Link>
       </div>
 
-      <p>Est. 2025</p>
+      <div className="flex flex-row gap-12">
+        <Link
+          href="https://type-01.com/exploring-the-captivating-ascii-realms-of-enigmatriz/"
+          target="_blank"
+        >
+          Background Image Credits
+        </Link>
+        <p>Est. 2025</p>
+      </div>
     </div>
   );
 }
