@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Public_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import CustomCursor from '@/components/CustomCursor';
 
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: '--font-bricolage-grotesque',
@@ -27,10 +28,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bricolageGrotesque.variable} ${publicSans.variable} antialiased min-h-screen flex flex-col`}
+        className={`${bricolageGrotesque.variable} ${publicSans.variable} antialiased min-h-screen flex flex-col cursor-none`}
       >
+        <CustomCursor />
+        <img
+          src="https://i.pinimg.com/1200x/0a/25/d4/0a25d47d0fe272749d618075e4abc880.jpg"
+          alt="Soffice Studio background image"
+          className="absolute w-screen h-screen object-cover opacity-25"
+        />
         <Navbar />
-        <main className="flex-1 flex">{children}</main>
+        <main className="flex-1 flex z-10">{children}</main>
         <Footer />
       </body>
     </html>
