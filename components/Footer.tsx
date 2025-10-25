@@ -12,6 +12,7 @@ export default function Footer() {
         <Link
           href="https://type-01.com/exploring-the-captivating-ascii-realms-of-enigmatriz/"
           target="_blank"
+          className="hidden md:block"
         >
           Background Image Credits
         </Link>
