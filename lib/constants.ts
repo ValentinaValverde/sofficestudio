@@ -19,16 +19,14 @@ export const developmentPageData = [
     description:
       'Redesigned Chipp’s core builder into a cleaner, more intuitive space built for speed and clarity.', // or usability
     link: '/development',
-    imageUrl:
-      'https://i.pinimg.com/1200x/30/07/b6/3007b69fdc5776e75cc7b0dec1672ec1.jpg',
+    imageUrl: '/app-builder.png',
   },
   {
     title: 'ChippAI HQ',
     description:
       'Built a highlight of the Chipp platform, a home for creators to share or sell their best work.',
     link: '/development',
-    imageUrl:
-      'https://i.pinimg.com/736x/06/4c/f6/064cf60bdff38c7be9ac9c39bd3213c2.jpg',
+    imageUrl: '/hq.png',
   },
   {
     title: 'Rabbit Hole Digital',

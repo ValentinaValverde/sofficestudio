@@ -17,7 +17,7 @@ export default function Block({
         <img
           src={imageUrl}
           alt="Project Image Url"
-          className="w-full h-[200px] border-b border-white object-cover"
+          className="w-full h-[200px] border-b border-white object-cover object-top"
         />
         <div className="p-6 space-y-2">
           <p className="!font-mono font-semibold">{title}</p>
