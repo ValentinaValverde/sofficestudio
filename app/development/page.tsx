@@ -26,7 +26,9 @@ export default function page() {
 
         <Link href="/contact">
           <div className="border border-white hover:bg-white hover:text-black duration-500 p-6 w-full h-full flex justify-center items-center">
-            <p className="text-2xl">Let&apos;s add your next project!</p>
+            <p className="text-2xl !font-mono italic">
+              Let&apos;s add your next project!
+            </p>
           </div>
         </Link>
       </div>
