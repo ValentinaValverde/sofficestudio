@@ -73,7 +73,11 @@ export const developmentProjectData = [
   {
     slug: 'chipp-app-builder',
     title: 'App Builder for ChippAI',
-    description: '',
+    description:
+      'This is the main interface that ChippAI users used to build their custom AI chatbots.',
+    issue: 'It wasnt easy enough',
+    solution: 'Redeisng the builder with responsivity and ease of use in mind',
+    quote: 'Wow! Its so dang easy!',
     videoUrl: '/',
     content: [
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
@@ -85,6 +89,9 @@ export const developmentProjectData = [
     slug: 'chipp-hq',
     title: 'HQ for ChippAI',
     description: '',
+    issue: '',
+    solution: '',
+    quote: '',
     videoUrl: '/',
     content: [
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
@@ -96,6 +103,9 @@ export const developmentProjectData = [
     slug: 'platform-redesign',
     title: 'Platform Redesign for Rabbit Hole Digital',
     description: '',
+    issue: '',
+    solution: '',
+    quote: '',
     videoUrl: '/',
     content: [
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
