@@ -57,7 +57,7 @@ export default async function DevelopmentPage({
         </div>
       </div>
 
-      <div className="w-screen h-auto p-6 py-24 border border-white">
+      <div className="w-screen h-auto p-6 py-24 space-y-4 border border-white">
         <p>Solution</p>
         <p className="text-4xl font-serif ">{project.solution}</p>
       </div>
@@ -65,8 +65,14 @@ export default async function DevelopmentPage({
       {/* First content block */}
       <div className="flex flex-col-reverse md:flex-row justify-start flex-1 w-full">
         <div className="w-full md:w-1/3 flex flex-row md:flex-col flex-1">
-          <div className="flex-1 flex border border-white p-6 items-end">
+          <div className="flex-1 flex flex-col border border-white p-6 gap-4 justify-end">
             <h1 className="text-2xl">Challenges</h1>
+
+            <ul className="space-y-4">
+              {project.challenges?.map((challenge, index) => (
+                <li key={index}>{challenge}</li>
+              ))}
+            </ul>
           </div>
         </div>
 
@@ -90,20 +96,21 @@ export default async function DevelopmentPage({
         </div>
 
         <div className="w-full md:w-1/3 flex flex-row md:flex-col flex-1">
-          <div className="flex-1 flex border border-white p-6">
+          <div className="flex-1 flex flex-col border border-white p-6 gap-4">
             <h1 className="text-2xl">Wins</h1>
+
+            <ul className="space-y-4">
+              {project.wins?.map((win, index) => (
+                <li key={index}>{win}</li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
 
       {/* Final Thoughts / Reflections or Contact  */}
       <div className="w-screen h-auto p-6 py-24 border border-white">
-        <p className="text-4xl font-serif">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo.
-        </p>
+        <p className="text-4xl font-serif">{project.quote}</p>
       </div>
 
       {/* Footer - Prev / Next */}

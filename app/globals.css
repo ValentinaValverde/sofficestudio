@@ -34,6 +34,10 @@ a {
   font-family: var(--font-public-sans);
 }
 
+li {
+  font-family: var(--font-public-sans);
+}
+
 h1 {
   font-family: var(--font-bricolage-grotesque);
 }

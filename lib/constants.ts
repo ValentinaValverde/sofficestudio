@@ -102,15 +102,27 @@ export const developmentProjectData = [
   {
     slug: 'platform-redesign',
     title: 'Platform Redesign for Rabbit Hole Digital',
-    description: '',
-    issue: '',
-    solution: '',
-    quote: '',
+    description:
+      'Rabbit Hole Digital was a platform for musicians to track metrics across all social media and content platforms.',
     videoUrl: '/',
+    issue:
+      'The platform wasn’t responsive across mobile and tablet devices, resulting in an inconsistent user experience and limited accessibility.',
+    solution:
+      'Redesign the platform to be fully responsive, incorporating brand colors, accessibility best practices, and a cohesive visual hierarchy across all screen sizes.',
+    challenges: [
+      '1. Determining the most effective ways to visualize data and deciding which formats (pie charts, bar graphs, etc.) best communicated different types of information.',
+      '2. Encouraging the team to invest time in a complete refactor. As a young startup, balancing priorities and development time was a key challenge.',
+      '3. Presenting and pitching the final redesign to stakeholders in a clear and compelling way.',
+    ],
+    wins: [
+      'Successfully designed and implemented a responsive platform that reflected the brand’s identity while prioritizing user experience and accessibility. The final prototype showcased a clear improvement in usability and visual consistency across devices.',
+    ],
     content: [
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
     ],
+    quote:
+      'Although the final design wasn’t adopted, I really enjoyed the creative challenge. I love exploring how platforms can evolve through unique data visualizations, cohesive brand integration, and adaptable screen layouts. It was a rewarding and fun process overall!',
   },
 ];
