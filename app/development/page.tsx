@@ -5,9 +5,9 @@ import { developmentPageData } from '@/lib/constants';
 export default function page() {
   return (
     <div className="w-screen flex flex-col flex-1 border border-white">
-      <div className="space-y-2 p-6">
+      <div className="space-y-4 py-24 p-6">
         <p className="!font-mono font-bold">DEVELOPMENT</p>
-        <p className="">Lorem ipsum dolor sit amet.</p>
+        <p className="text-3xl">Digital products that scale.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2">
