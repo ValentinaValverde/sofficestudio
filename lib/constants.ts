@@ -21,13 +21,13 @@ export const developmentPageData = [
     link: '/development/chipp-app-builder',
     imageUrl: '/app-builder.png',
   },
-  {
-    title: 'ChippAI HQ',
-    description:
-      'Built a highlight of the Chipp platform, a home for creators to share or sell their best work.',
-    link: '/development/chipp-hq',
-    imageUrl: '/hq.png',
-  },
+  // {
+  //   title: 'ChippAI HQ',
+  //   description:
+  //     'Built a highlight of the Chipp platform, a home for creators to share or sell their best work.',
+  //   link: '/development/chipp-hq',
+  //   imageUrl: '/hq.png',
+  // },
   {
     title: 'Rabbit Hole Digital',
     description:
@@ -85,20 +85,20 @@ export const developmentProjectData = [
       { imgUrl: '/', altText: 'alt text', subtitle: '' },
     ],
   },
-  {
-    slug: 'chipp-hq',
-    title: 'HQ for ChippAI',
-    description: '',
-    issue: '',
-    solution: '',
-    quote: '',
-    videoUrl: '/',
-    content: [
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-    ],
-  },
+  // {
+  //   slug: 'chipp-hq',
+  //   title: 'HQ for ChippAI',
+  //   description: '',
+  //   issue: '',
+  //   solution: '',
+  //   quote: '',
+  //   videoUrl: '/',
+  //   content: [
+  //     { imgUrl: '/', altText: 'alt text', subtitle: '' },
+  //     { imgUrl: '/', altText: 'alt text', subtitle: '' },
+  //     { imgUrl: '/', altText: 'alt text', subtitle: '' },
+  //   ],
+  // },
   {
     slug: 'platform-redesign',
     title: 'Platform Redesign for Rabbit Hole Digital',
