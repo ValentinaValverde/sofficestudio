@@ -3,7 +3,7 @@ import { sidebarBlockData } from '@/lib/constants';
 
 export default function Sidebar() {
   return (
-    <div className="w-full md:w-1/3 flex flex-row md:flex-col flex-1">
+    <div className="w-full md:w-1/3 flex flex-col flex-1">
       {sidebarBlockData.map((data, index) => {
         return (
           <div key={index} className="flex-1 flex">
