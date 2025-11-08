@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { developmentProjectData } from '@/lib/constants';
 import { notFound } from 'next/navigation';
-// import { ExclamationMark } from '@phosphor-icons/react';
 
 export default async function DevelopmentPage({
   params,
@@ -47,10 +46,19 @@ export default async function DevelopmentPage({
       </div>
 
       <div className="flex flex-col md:flex-row w-screen">
-        <div className="border border-white w-full md:w-1/2 p-6 flex justify-center items-center">
-          {/* <ExclamationMark /> */}
-          Ouch
-        </div>
+        {project.projectLink ? (
+          <Link
+            href={project.projectLink}
+            target="_blank"
+            className="border border-white hover:bg-white hover:text-black duration-500 w-full md:w-1/2 p-6 flex justify-center items-center"
+          >
+            View Project
+          </Link>
+        ) : (
+          <div className="border border-white w-full md:w-1/2 p-6 flex justify-center items-center">
+            :P
+          </div>
+        )}
         <div className="border border-white w-full md:w-1/2 p-6 space-y-2">
           <p>Issue</p>
           <p className="text-2xl">{project.issue}</p>

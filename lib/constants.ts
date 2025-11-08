@@ -75,6 +75,7 @@ export const developmentProjectData = [
     title: 'App Builder for ChippAI',
     description:
       'This is the main interface that ChippAI users used to build their custom AI chatbots.',
+    projectLink: 'https://app.chipp.ai/applications',
     issue: 'It wasnt easy enough',
     solution: 'Redeisng the builder with responsivity and ease of use in mind',
     quote: 'Wow! Its so dang easy!',
@@ -107,6 +108,7 @@ export const developmentProjectData = [
     videoUrl: '/',
     issue:
       'The platform wasn’t responsive across mobile and tablet devices, resulting in an inconsistent user experience and limited accessibility.',
+    projectLink: 'https://rabbitholedigital.netlify.app/',
     solution:
       'Redesign the platform to be fully responsive, incorporating brand colors, accessibility best practices, and a cohesive visual hierarchy across all screen sizes.',
     challenges: [
