@@ -35,7 +35,7 @@ export default async function DevelopmentPage({
           preload="none"
           className="!w-full !h-full"
         >
-          <source src={project.videoUrl} type="video/mp4" />
+          <source src={project.mainVideoUrl} type="video/mp4" />
           <track
             src="/path/to/captions.vtt"
             kind="subtitles"
@@ -85,22 +85,40 @@ export default async function DevelopmentPage({
         </div>
 
         <div className="w-full md:w-2/3 flex items-end border border-white h-auto">
-          <img
-            src="https://i.pinimg.com/1200x/c1/28/ba/c128ba7d5f821dcd7ffcb69ac4aef673.jpg"
-            alt="Photo of lead (and only) developer, Valentina Valverde"
-            className="w-full h-[500px] object-cover object-[0%_30%]"
-          />
+          {project.oldProjectVideo ? (
+            <video
+              className="w-full h-[600px] object-cover object-[0%_30%]"
+              controls
+            >
+              <source src={project.oldProjectVideo} type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+          ) : project.oldProjectImage ? (
+            <img
+              src={project.oldProjectImage}
+              alt="Photo of lead (and only) developer, Valentina Valverde"
+            />
+          ) : null}
         </div>
       </div>
 
       {/* Second content block */}
       <div className="flex flex-col-reverse md:flex-row justify-start flex-1 w-full">
         <div className="w-full md:w-2/3 flex items-end border border-white h-auto">
-          <img
-            src="https://i.pinimg.com/1200x/c1/28/ba/c128ba7d5f821dcd7ffcb69ac4aef673.jpg"
-            alt="Photo of lead (and only) developer, Valentina Valverde"
-            className="w-full h-[500px] object-cover object-[0%_30%]"
-          />
+          {project.newProjectVideo ? (
+            <video
+              className="w-full h-[600px] object-cover object-[0%_30%]"
+              controls
+            >
+              <source src={project.newProjectVideo} type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+          ) : project.newProjectImage ? (
+            <img
+              src={project.newProjectImage}
+              alt="Photo of lead (and only) developer, Valentina Valverde"
+            />
+          ) : null}
         </div>
 
         <div className="w-full md:w-1/3 flex flex-row md:flex-col flex-1">
@@ -122,10 +140,10 @@ export default async function DevelopmentPage({
       </div>
 
       {/* Footer - Prev / Next */}
-      <div className="flex justify-center items-center gap-8 p-6 border border-white">
+      {/* <div className="flex justify-center items-center gap-8 p-6 border border-white">
         <Link href="/">Prev</Link>
         <Link href="/">Next</Link>
-      </div>
+      </div> */}
     </div>
   );
 }

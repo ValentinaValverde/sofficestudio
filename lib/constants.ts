@@ -73,39 +73,29 @@ export const developmentProjectData = [
   {
     slug: 'chipp-app-builder',
     title: 'App Builder for ChippAI',
-    description:
-      'This is the main interface that ChippAI users used to build their custom AI chatbots.',
+    description: 'ChippAI is...',
+    mainVideoUrl: '/',
+    oldProjectVideo: '/',
+    newProjectVideo: '/',
+    oldProjectImage: '/',
+    newProjectImage: '/',
+    issue: '...',
     projectLink: 'https://app.chipp.ai/applications',
-    issue: 'It wasnt easy enough',
-    solution: 'Redeisng the builder with responsivity and ease of use in mind',
-    quote: 'Wow! Its so dang easy!',
-    videoUrl: '/',
-    content: [
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-    ],
+    solution: '...',
+    challenges: ['...'],
+    wins: ['...'],
+    quote: '...',
   },
-  // {
-  //   slug: 'chipp-hq',
-  //   title: 'HQ for ChippAI',
-  //   description: '',
-  //   issue: '',
-  //   solution: '',
-  //   quote: '',
-  //   videoUrl: '/',
-  //   content: [
-  //     { imgUrl: '/', altText: 'alt text', subtitle: '' },
-  //     { imgUrl: '/', altText: 'alt text', subtitle: '' },
-  //     { imgUrl: '/', altText: 'alt text', subtitle: '' },
-  //   ],
-  // },
   {
     slug: 'platform-redesign',
     title: 'Platform Redesign for Rabbit Hole Digital',
     description:
       'Rabbit Hole Digital was a platform for musicians to track metrics across all social media and content platforms.',
-    videoUrl: '/',
+    mainVideoUrl: '/',
+    oldProjectVideo: '/videos/old_rabbit_hole_digital.mp4',
+    newProjectVideo: '/videos/new_rabbit_hole_digital.mp4',
+    oldProjectImage: '/',
+    newProjectImage: '/',
     issue:
       'The platform wasn’t responsive across mobile and tablet devices, resulting in an inconsistent user experience and limited accessibility.',
     projectLink: 'https://rabbitholedigital.netlify.app/',
@@ -118,11 +108,6 @@ export const developmentProjectData = [
     ],
     wins: [
       'Successfully designed and implemented a responsive platform that reflected the brand’s identity while prioritizing user experience and accessibility. The final prototype showcased a clear improvement in usability and visual consistency across devices.',
-    ],
-    content: [
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
-      { imgUrl: '/', altText: 'alt text', subtitle: '' },
     ],
     quote:
       'Although the final design wasn’t adopted, I really enjoyed the creative challenge. I love exploring how platforms can evolve through unique data visualizations, cohesive brand integration, and adaptable screen layouts. It was a rewarding and fun process overall!',
