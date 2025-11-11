@@ -19,22 +19,14 @@ export const developmentPageData = [
     description:
       'Redesigned Chipp’s core builder into a cleaner, more intuitive space built for speed and clarity.', // or usability
     link: '/development/chipp-app-builder',
-    imageUrl: '/app-builder.png',
+    imageUrl: '/app_builder.png',
   },
-  // {
-  //   title: 'ChippAI HQ',
-  //   description:
-  //     'Built a highlight of the Chipp platform, a home for creators to share or sell their best work.',
-  //   link: '/development/chipp-hq',
-  //   imageUrl: '/hq.png',
-  // },
   {
     title: 'Rabbit Hole Digital',
     description:
       'Reimagined a full music analytics platform with modern UI, responsive layouts, and rebuilt core flows.',
     link: '/development/platform-redesign',
-    imageUrl:
-      'https://i.pinimg.com/736x/06/4c/f6/064cf60bdff38c7be9ac9c39bd3213c2.jpg',
+    imageUrl: '/rabbit_hole.png',
   },
 ];
 
@@ -73,18 +65,29 @@ export const developmentProjectData = [
   {
     slug: 'chipp-app-builder',
     title: 'App Builder for ChippAI',
-    description: 'ChippAI is...',
-    mainVideoUrl: '/',
-    oldProjectVideo: '/',
-    newProjectVideo: '/',
-    oldProjectImage: '/',
-    newProjectImage: '/',
-    issue: '...',
+    description:
+      'ChippAI is a no-code/low-code platform that lets teams build custom AI chat apps and agents based on company knowledge, documents, and workflows. It enables businesses to embed AI chat experiences, monetize AI apps, and manage privacy and sharing in one place.',
+    mainVideoUrl: '/videos/chipp_app_builder_overview.mp4',
+    // oldProjectVideo: '/',
+    newProjectVideo: '/videos/new_app_builder.mp4',
+    oldProjectImage: '/old_chipp_builder.png',
+    // newProjectImage: '/',
+    issue:
+      'The existing App Builder was overly complex and lacked a clear organizational structure. Users constantly asked where to find specific features or settings, revealing major gaps in layout clarity and navigation.',
     projectLink: 'https://app.chipp.ai/applications',
-    solution: '...',
-    challenges: ['...'],
-    wins: ['...'],
-    quote: '...',
+    solution:
+      'Led a full redesign of the App Builder, reworking its informational architecture, instituting a cohesive visual system aligned with brand identity, and implementing responsive states and interactive guidance to help new users launch their AI agents faster.',
+    challenges: [
+      '1. Mapping out and reconciling the many divergent builder flows (agent creation, document ingestion, deployment/sharing) into a unified, master flow while preserving flexibility for power users.',
+      '2. Convincing stakeholders (product, engineering, sales) to devote time and development resources to a large-scale redesign of our most strategic surface — balancing feature delivery vs. UX debt reduction.',
+      '3. Ensuring the redesign both improved the “time to live” (user launches an app) and supported retention and monetization metrics, so we could clearly quantify its impact and sell the effort internally.',
+    ],
+    wins: [
+      'Successfully shipped the redesigned App Builder as our flagship product surface, with early feedback indicating improved usability, increased clarity of workflows, and stronger brand alignment.',
+      'Post-launch we observed measurable uplift in customer-reported satisfaction, stronger retention of builder users, and multiple customers personally thanking me at in-person events for the improved experience.',
+    ],
+    quote:
+      'Leading the redesign of the App Builder was a fantastic challenge — it positioned me at the center of ChippAI’s ambitions, helped me build deep product & UX fluency, and let me directly see how design engineering can drive retention, usability and brand strength.',
   },
   {
     slug: 'platform-redesign',

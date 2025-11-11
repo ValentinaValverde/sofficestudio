@@ -94,10 +94,7 @@ export default async function DevelopmentPage({
               Your browser does not support HTML video.
             </video>
           ) : project.oldProjectImage ? (
-            <img
-              src={project.oldProjectImage}
-              alt="Photo of lead (and only) developer, Valentina Valverde"
-            />
+            <img src={project.oldProjectImage} alt="Old Project Image" />
           ) : null}
         </div>
       </div>
@@ -114,10 +111,7 @@ export default async function DevelopmentPage({
               Your browser does not support HTML video.
             </video>
           ) : project.newProjectImage ? (
-            <img
-              src={project.newProjectImage}
-              alt="Photo of lead (and only) developer, Valentina Valverde"
-            />
+            <img src={project.newProjectImage} alt="New Project Image" />
           ) : null}
         </div>
 
