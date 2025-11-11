@@ -32,32 +32,36 @@ export const developmentPageData = [
 
 export const designPageData = [
   {
-    title: 'Business Cards',
-    link: '/development',
-    imageUrl:
-      'https://i.pinimg.com/1200x/30/07/b6/3007b69fdc5776e75cc7b0dec1672ec1.jpg',
-    altText: '',
+    title: 'ChippCon',
+    description:
+      'Created custom merch designs for ChippCon, including logo variations, hoodies, hats, and tote bags inspired by ChippAI’s mascot.',
+    link: '/design/chippcon',
+    imageUrl: 'design/chippcon.png',
+    altText: 'ChippCon Banner Image',
   },
   {
-    title: 'Custom Apparel',
-    link: '/development',
-    imageUrl:
-      'https://i.pinimg.com/736x/06/4c/f6/064cf60bdff38c7be9ac9c39bd3213c2.jpg',
-    altText: '',
+    title: 'PackPalAI',
+    description:
+      'Designed the logo and website for PackPal AI, an app that helps moving companies generate instant quotes using AI image recognition.',
+    link: '/design/packpal',
+    imageUrl: 'design/packpal.png',
+    altText: 'PackPal AI Banner Image',
   },
   {
-    title: 'Brand Refresh',
-    link: '/development',
-    imageUrl:
-      'https://i.pinimg.com/736x/06/4c/f6/064cf60bdff38c7be9ac9c39bd3213c2.jpg',
-    altText: '',
+    title: 'Malova Designs',
+    description:
+      'Designed branded apparel, logo, and website for Malova Designs, a small business promoting mental health awareness through clothing.',
+    link: '/design/malova',
+    imageUrl: '/design/malova_designs.png',
+    altText: 'Malova Designs Banner Image',
   },
   {
-    title: 'Logo Design',
-    link: '/development',
-    imageUrl:
-      'https://i.pinimg.com/1200x/30/07/b6/3007b69fdc5776e75cc7b0dec1672ec1.jpg',
-    altText: '',
+    title: 'Miscellaneous Branding & Print Design',
+    description:
+      'A mix of personal work and small-business designs focused on logos, print, and brand visuals.',
+    link: '/design/misc',
+    imageUrl: '/design/misc.png',
+    altText: 'Miscellaneous Branding & Print Design Banner Image',
   },
 ];
 

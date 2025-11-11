@@ -13,11 +13,11 @@ export default function Block({
 }) {
   return (
     <Link href={link}>
-      <div className="border border-white hover:bg-white hover:text-black duration-500">
+      <div className="border border-white bg-black hover:bg-white hover:text-black duration-500">
         <img
           src={imageUrl}
           alt="Project Image Url"
-          className="w-full h-[300px] border-b border-white object-cover object-top"
+          className="w-full h-[400px] border-b border-white object-cover object-center"
         />
         <div className="p-6 space-y-2">
           <p className="!font-mono font-semibold">{title}</p>
