@@ -30,7 +30,7 @@ export default function Home() {
           Valentina is a Design Engineer with 2+ years in experience building
           saas products and various other creative projects. With her love for
           art and eye for design, she is able to fill in the gaps between
-          developers and designers. She believed communication is key in every
+          developers and designers. She believes communication is key in every
           relationship, and absolutely loves sandwiches.
         </h1>
       </div>
