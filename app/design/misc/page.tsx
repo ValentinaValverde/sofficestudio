@@ -6,7 +6,7 @@ export default function page() {
       <div className="p-6 border border-white flex flex-col gap-4 ">
         <Link href="/design">Go Back</Link>
         <div className="space-y-4 py-24">
-          <h1>MISC</h1>
+          <p className="!font-mono font-bold">MISC</p>
           <p className="text-4xl">Lorem ipsum dolor sit amet</p>
         </div>
       </div>
