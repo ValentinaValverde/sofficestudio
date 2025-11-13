@@ -11,21 +11,23 @@ export default function page() {
         </div>
       </div>
 
-      <div className="border border-white flex flex-col gap-4">
-        <img
-          src="/design/packpal/packpal_sheet.png"
-          alt=""
-          width="100"
-          height="100"
-          className="w-full h-full object-cover"
-        />
+      <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="border border-white w-full h-[500px] md:h-[600px] flex justify-center items-center col-span-2">
+          <img
+            src="/design/packpal/packpal_sheet.png"
+            alt=""
+            width="100"
+            height="100"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        <div className="border border-white p-6 w-full h-full">
+          <p className="text-lg">Ooga Booga</p>
+        </div>
       </div>
 
-      <div className="border border-white flex flex-col gap-4 p-6">
-        <p>PEOPLEEEEEE</p>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white w-full h-[500px] md:h-[800px] flex justify-center items-center">
           <img
             src="/design/packpal/packpal_logos.png"
@@ -39,7 +41,15 @@ export default function page() {
         <div className="border border-white p-6 w-full h-full">
           <p className="text-lg">Ooga Booga</p>
         </div>
-      </div>
+      </div> */}
+
+      <Link
+        href="https://packpal-ai.vercel.app/"
+        target="_blank"
+        className="border border-white w-full h-[200px] flex justify-center items-center bg-black hover:bg-white hover:text-black duration-500"
+      >
+        Visit Website
+      </Link>
 
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">

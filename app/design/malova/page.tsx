@@ -27,9 +27,13 @@ export default function page() {
         </div>
       </div>
 
-      <div className="border border-white w-full h-[200px] flex justify-center items-center bg-black">
-        <p className="text-xl font-bold">;</p>
-      </div>
+      <Link
+        href="https://www.malovadesigns.com/"
+        target="_blank"
+        className="border border-white w-full h-[200px] flex justify-center items-center bg-black hover:bg-white hover:text-black duration-500"
+      >
+        Visit Website
+      </Link>
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
