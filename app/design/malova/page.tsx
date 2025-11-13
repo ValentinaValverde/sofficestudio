@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function page() {
   return (
@@ -11,13 +12,45 @@ export default function page() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="border border-white hover:bg-white hover:text-black duration-500 p-6 w-full h-[200px] flex justify-center items-center">
-          <p className="text-2xl">Ooga Booga</p>
+      <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="border border-white w-full h-[400px] flex justify-center items-center">
+          <Image
+            src="/design/malova/malova_2.png"
+            alt=""
+            width="100"
+            height="100"
+            className="w-full h-full object-cover"
+          />
         </div>
 
-        <div className="border border-white hover:bg-white hover:text-black duration-500 p-6 w-full h-[200px] flex justify-center items-center">
-          <p className="text-2xl">Ooga Booga</p>
+        <div className="border border-white w-full h-full p-6 col-span-2">
+          <p className="text-lg">Boogie bear!</p>
+        </div>
+      </div>
+
+      <div className="border border-white w-full h-[200px] flex justify-center items-center bg-black">
+        <p className="text-xl font-bold">;</p>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
+          <Image
+            src="/design/malova/malova_1.png"
+            alt=""
+            width="100"
+            height="100"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
+          <Image
+            src="/design/malova/malova_3.png"
+            alt=""
+            width="100"
+            height="100"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
     </div>
