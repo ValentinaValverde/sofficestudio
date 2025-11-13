@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function page() {
   return (
@@ -14,7 +13,7 @@ export default function page() {
 
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="border border-white w-full h-[400px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/malova/malova_2.png"
             alt=""
             width="100"
@@ -34,7 +33,7 @@ export default function page() {
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/malova/malova_1.png"
             alt=""
             width="100"
@@ -44,7 +43,7 @@ export default function page() {
         </div>
 
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/malova/malova_3.png"
             alt=""
             width="100"

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function page() {
   return (
@@ -13,7 +12,7 @@ export default function page() {
       </div>
 
       <div className="border border-white flex flex-col gap-4">
-        <Image
+        <img
           src="/design/packpal/packpal_sheet.png"
           alt=""
           width="100"
@@ -28,7 +27,7 @@ export default function page() {
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white w-full h-[500px] md:h-[800px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/packpal/packpal_logos.png"
             alt=""
             width="100"
@@ -44,7 +43,7 @@ export default function page() {
 
       <div className="grid grid-cols-1 md:grid-cols-3">
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/packpal/packpal_1.png"
             alt=""
             width="100"
@@ -54,7 +53,7 @@ export default function page() {
         </div>
 
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/packpal/packpal_3.png"
             alt=""
             width="100"
@@ -64,7 +63,7 @@ export default function page() {
         </div>
 
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/packpal/packpal_2.png"
             alt=""
             width="100"

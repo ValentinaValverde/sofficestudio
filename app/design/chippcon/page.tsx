@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function page() {
   return (
@@ -14,7 +13,7 @@ export default function page() {
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white w-full h-[500px] md:h-[800px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/chippcon/chippcon_tote.png"
             alt=""
             width="100"
@@ -34,7 +33,7 @@ export default function page() {
         </div>
 
         <div className="border border-white w-full h-[500px] md:h-[800px] flex justify-center items-center">
-          <Image
+          <img
             src="/design/chippcon/chippcon_sticker_sheet.png"
             alt=""
             width="100"
@@ -45,7 +44,7 @@ export default function page() {
       </div>
 
       <div className="border border-white flex flex-col gap-4 ">
-        <Image
+        <img
           src="/design/chippcon/chippcon_1.png"
           alt=""
           width="100"
@@ -55,7 +54,7 @@ export default function page() {
       </div>
 
       <div className="border border-white flex flex-col gap-4 ">
-        <Image
+        <img
           src="/design/chippcon/chippcon_2.png"
           alt=""
           width="100"
@@ -65,7 +64,7 @@ export default function page() {
       </div>
 
       <div className="border border-white flex flex-col gap-4 ">
-        <Image
+        <img
           src="/design/chippcon/chippcon_3.png"
           alt=""
           width="100"
@@ -75,7 +74,7 @@ export default function page() {
       </div>
 
       <div className="border border-white flex flex-col gap-4 ">
-        <Image
+        <img
           src="/design/chippcon/chippcon_4.png"
           alt=""
           width="100"
@@ -85,7 +84,7 @@ export default function page() {
       </div>
 
       <div className="border border-white flex flex-col gap-4 ">
-        <Image
+        <img
           src="/design/chippcon/chippcon_5.png"
           alt=""
           width="100"
