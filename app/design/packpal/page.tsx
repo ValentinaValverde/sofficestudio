@@ -25,7 +25,7 @@ export default function page() {
           />
         </div>
 
-        <div className="border border-white p-6 w-full h-full">
+        <div className="border border-white p-6 w-full h-full bg-black">
           <p className="text-lg">
             I had 48 hours to design the full brand, logo, and website for
             PackPal AI during HackUK. Since I was representing ChippAI at the

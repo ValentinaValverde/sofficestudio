@@ -25,7 +25,7 @@ export default function page() {
           />
         </div>
 
-        <div className="border border-white w-full h-full p-6 col-span-2">
+        <div className="border border-white w-full h-full p-6 col-span-2 bg-black">
           <p className="text-lg">
             I developed the logo, apparel graphics, and website for a small
             business centered on mental health awareness. Uplifting designs for

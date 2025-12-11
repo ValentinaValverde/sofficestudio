@@ -26,7 +26,7 @@ export default function page() {
           />
         </div>
 
-        <div className="border border-white p-6 w-full h-full">
+        <div className="border border-white p-6 w-full h-full bg-black">
           <p className="text-lg">
             For ChippCon, I was given an initial character concept and a short
             description of each “Chipp-sona.” From there, I translated those
