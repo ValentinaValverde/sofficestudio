@@ -4,7 +4,7 @@ import Block from '@/components/development/Block';
 export default function FeaturedWorkSection() {
   return (
     <div>
-      <div className="w-full border border-white p-6">
+      <div className="w-full border border-white p-6 bg-black">
         <p>Featured Work</p>
       </div>
 
