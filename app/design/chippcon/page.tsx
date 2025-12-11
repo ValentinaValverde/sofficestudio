@@ -7,7 +7,11 @@ export default function page() {
         <Link href="/design">Go Back</Link>
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">CHIPPCON</p>
-          <p className="text-4xl">Lorem ipsum dolor sit amet</p>
+          <p className="text-4xl">
+            Created custom merch designs for ChippCon, including logo
+            variations, hoodies, hats, and tote bags inspired by ChippAI’s
+            mascot.
+          </p>
         </div>
       </div>
 
@@ -23,13 +27,29 @@ export default function page() {
         </div>
 
         <div className="border border-white p-6 w-full h-full">
-          <p className="text-lg">Ooga Booga</p>
+          <p className="text-lg">
+            For ChippCon, I was given an initial character concept and a short
+            description of each “Chipp-sona.” From there, I translated those
+            rough ideas into clean, vector-based mascot variations that matched
+            ChippAI’s visual style. I explored different poses, expressions, and
+            accessories to capture each persona’s personality, then refined them
+            into a consistent, reusable set of character assets that could scale
+            across merch, signage, and digital touchpoints.
+          </p>
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white p-6 w-full h-full">
-          <p className="text-lg">Ooga Booga</p>
+          <p className="text-lg">
+            Once the characters were finalized, I applied the Chipp-sonas across
+            multiple merchandise concepts including dad caps, sticker sheets,
+            tote bags, and NFC cards used throughout the event. These assets
+            helped give ChippCon a clear visual identity and added a playful,
+            memorable element that attendees connected with. The Chipp-sonas
+            quickly became a crowd favorite, showing up in photos, videos, and
+            conversations throughout the conference.
+          </p>
         </div>
 
         <div className="border border-white w-full h-[500px] md:h-[800px] flex justify-center items-center">

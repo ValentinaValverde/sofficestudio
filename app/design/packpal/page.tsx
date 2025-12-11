@@ -7,7 +7,10 @@ export default function page() {
         <Link href="/design">Go Back</Link>
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">PACKPAL AI</p>
-          <p className="text-4xl">Lorem ipsum dolor sit amet</p>
+          <p className="text-4xl">
+            Designed the logo and website for PackPal AI, an app that helps
+            moving companies generate instant quotes using AI image recognition.
+          </p>
         </div>
       </div>
 
@@ -23,7 +26,15 @@ export default function page() {
         </div>
 
         <div className="border border-white p-6 w-full h-full">
-          <p className="text-lg">Ooga Booga</p>
+          <p className="text-lg">
+            I had 48 hours to design the full brand, logo, and website for
+            PackPal AI during HackUK. Since I was representing ChippAI at the
+            event, the challenge was creating something that nodded to Chipp’s
+            visual style without living directly inside its ecosystem. PackPal
+            became a way to explore how Chipp’s design language and product
+            thinking could extend into new verticals, giving us insight into how
+            the company might position future industry-specific solutions.
+          </p>
         </div>
       </div>
 

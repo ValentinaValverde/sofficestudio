@@ -7,7 +7,10 @@ export default function page() {
         <Link href="/design">Go Back</Link>
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">MALOVA DESIGNS</p>
-          <p className="text-4xl">Lorem ipsum dolor sit amet</p>
+          <p className="text-4xl">
+            Designed branded apparel, logo, and website for Malova Designs, a
+            small business promoting mental health awareness through clothing.
+          </p>
         </div>
       </div>
 
@@ -23,7 +26,14 @@ export default function page() {
         </div>
 
         <div className="border border-white w-full h-full p-6 col-span-2">
-          <p className="text-lg">Boogie bear!</p>
+          <p className="text-lg">
+            I developed the logo, apparel graphics, and website for a small
+            business centered on mental health awareness. Uplifting designs for
+            tees and hoodies were created alongside a clean, approachable online
+            presence that reflected the brand’s purpose. It was a meaningful
+            project that blended design and message into a collection aimed at
+            supporting conversations around mental health.
+          </p>
         </div>
       </div>
 

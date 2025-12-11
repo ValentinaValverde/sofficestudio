@@ -7,7 +7,7 @@ export default function page() {
     <div className="w-screen flex flex-col flex-1 border border-white">
       <div className="space-y-4 py-24 p-6">
         <p className="!font-mono font-bold">DESIGN</p>
-        <p className="text-3xl">Lorem ipsum dolor sit amet. </p>
+        <p className="text-3xl">Visual identities crafted with intention.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2">

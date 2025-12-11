@@ -2,7 +2,7 @@ export const sidebarBlockData = [
   {
     title: 'Development',
     description:
-      'We craft sleek landing pages and complex SaaS systems that work beautifully and perform seamlessly.',
+      'Crafting sleek landing pages and complex SaaS systems that work beautifully and perform seamlessly.',
     link: '/development',
   },
   {
@@ -33,36 +33,33 @@ export const developmentPageData = [
 export const designPageData = [
   {
     title: 'ChippCon',
-    description:
-      'Created custom merch designs for ChippCon, including logo variations, hoodies, hats, and tote bags inspired by ChippAI’s mascot.',
+    description: 'Custom merch designs for ChippCon',
     link: '/design/chippcon',
     imageUrl: 'design/chippcon.png',
     altText: 'ChippCon Banner Image',
   },
   {
     title: 'PackPalAI',
-    description:
-      'Designed the logo and website for PackPal AI, an app that helps moving companies generate instant quotes using AI image recognition.',
+    description: 'Logo and website design in 48 hours',
     link: '/design/packpal',
     imageUrl: 'design/packpal.png',
     altText: 'PackPal AI Banner Image',
   },
   {
     title: 'Malova Designs',
-    description:
-      'Designed branded apparel, logo, and website for Malova Designs, a small business promoting mental health awareness through clothing.',
+    description: 'Small business logo, website, and apparel design',
     link: '/design/malova',
     imageUrl: '/design/malova_designs.png',
     altText: 'Malova Designs Banner Image',
   },
-  {
-    title: 'Miscellaneous Branding & Print Design',
-    description:
-      'A mix of personal work and small-business designs focused on logos, print, and brand visuals.',
-    link: '/design/misc',
-    imageUrl: '/design/misc.png',
-    altText: 'Miscellaneous Branding & Print Design Banner Image',
-  },
+  // {
+  //   title: 'Miscellaneous Branding & Print Design',
+  //   description:
+  //     'A mix of personal work and small-business designs focused on logos, print, and brand visuals.',
+  //   link: '/design/misc',
+  //   imageUrl: '/design/misc.png',
+  //   altText: 'Miscellaneous Branding & Print Design Banner Image',
+  // },
 ];
 
 export const developmentProjectData = [
@@ -91,7 +88,7 @@ export const developmentProjectData = [
       'Post-launch we observed measurable uplift in customer-reported satisfaction, stronger retention of builder users, and multiple customers personally thanking me at in-person events for the improved experience.',
     ],
     quote:
-      'Leading the redesign of the App Builder was a fantastic challenge — it positioned me at the center of ChippAI’s ambitions, helped me build deep product & UX fluency, and let me directly see how design engineering can drive retention, usability and brand strength.',
+      'Leading the redesign of the App Builder was a fantastic challenge. It positioned me at the center of ChippAI’s ambitions, helped me build deep product & UX fluency, and let me directly see how design engineering can drive retention, usability and brand strength.',
   },
   {
     slug: 'platform-redesign',
