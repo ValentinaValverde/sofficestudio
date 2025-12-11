@@ -28,7 +28,7 @@ export default async function DevelopmentPage({
         </div>
       </div>
 
-      <div className="w-screen h-[600px] border border-white">
+      {/* <div className="w-screen h-[600px] border border-white">
         <video
           width="100%"
           height="100%"
@@ -44,7 +44,7 @@ export default async function DevelopmentPage({
             label="English"
           />
         </video>
-      </div>
+      </div> */}
 
       <div className="flex flex-col md:flex-row w-screen">
         {project.projectLink ? (
