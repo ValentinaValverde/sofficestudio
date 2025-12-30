@@ -13,7 +13,7 @@ export default function page() {
         return (
           <a key={index} href={data.link}>
             <div
-              className="group bg-black text-white border border-white
+              className="hidden md:block group bg-black text-white border border-white
                 transition-all duration-500 ease-out
                 h-auto hover:bg-white hover:text-black p-6
                 flex justify-between items-stretch"
@@ -30,6 +30,16 @@ export default function page() {
                   className="w-full border border-gray-200 rounded-sm"
                 />
               </div>
+            </div>
+
+            <div className="p-6 border border-white space-y-6 max-w-[100vw] block md:hidden">
+              <p>{data.title}</p>
+              <p className="text-3xl !text-mono">{data.description}</p>
+              <img
+                src={data.imageUrl}
+                alt={data.description}
+                className="border border-gray-200 rounded-sm"
+              />
             </div>
           </a>
         );
