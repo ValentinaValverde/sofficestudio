@@ -1,7 +1,7 @@
 import FeaturedWorkSection from '@/components/home/FeaturedWorkSection';
 import MainBlock from '@/components/home/MainBlock';
 import Sidebar from '@/components/home/Sidebar';
-import Link from 'next/link';
+import ContactSection from '@/components/home/ContactSection';
 
 export default function Home() {
   return (
@@ -12,13 +12,7 @@ export default function Home() {
       </div>
 
       <FeaturedWorkSection />
-
-      <div className="border border-white p-6 w-full h-[500px] flex flex-col justify-center items-center gap-4">
-        <p className="text-center">Have a cool idea?</p>
-        <Link href="/contact" className="text-5xl !font-mono text-center">
-          Let&apos;s chat!
-        </Link>
-      </div>
+      <ContactSection />
     </div>
   );
 }
