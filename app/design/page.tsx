@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import Block from '../../components/development/Block';
 import { designPageData } from '@/lib/constants';
 
 export default function page() {
@@ -10,26 +8,37 @@ export default function page() {
         <p className="text-3xl">Visual identities crafted with intention.</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        {designPageData.map((data, index) => {
-          return (
-            <div key={index} className="col-span-2 md:col-span-1">
-              <Block
-                title={data.title}
-                description={data.description}
-                link={data.link}
-                imageUrl={data.imageUrl}
-              />
-            </div>
-          );
-        })}
+      {designPageData.map((data, index) => {
+        return (
+          <a key={index} href={data.link}>
+            <div
+              className="group bg-black text-white border border-white
+                transition-all duration-500 ease-out
+                h-auto hover:bg-white hover:text-black p-6
+                flex justify-between items-stretch"
+            >
+              <div className="w-1/2 min-h-full flex flex-col justify-between">
+                <p>{data.title}</p>
+                <p className="text-3xl max-w-2/3">{data.description}</p>
+              </div>
 
-        <Link href="/contact" className="col-span-2 h-[200px]">
+              <div className="w-1/2 flex justify-end">
+                <img
+                  src={data.imageUrl}
+                  alt={data.description}
+                  className="w-full border border-gray-200 rounded-sm"
+                />
+              </div>
+            </div>
+          </a>
+        );
+      })}
+
+      {/* <Link href="/contact" className="col-span-2 h-[200px]">
           <div className="border border-white hover:bg-white hover:text-black duration-500 p-6 w-full h-full flex justify-center items-center">
             <p className="text-2xl">Let&apos;s add your next project!</p>
           </div>
-        </Link>
-      </div>
+        </Link> */}
     </div>
   );
 }
