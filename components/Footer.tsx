@@ -13,13 +13,6 @@ export default function Footer() {
       </div>
 
       <div className="flex flex-row gap-12">
-        <Link
-          href="https://type-01.com/exploring-the-captivating-ascii-realms-of-enigmatriz/"
-          target="_blank"
-          className="hidden md:block link-underline"
-        >
-          Background Image Credits
-        </Link>
         <p>Est. 2025</p>
       </div>
     </div>

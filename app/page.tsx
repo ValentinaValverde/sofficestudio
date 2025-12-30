@@ -3,6 +3,9 @@ import ContactSection from '@/components/home/ContactSection';
 import { sidebarBlockData } from '@/lib/constants';
 
 export default function Home() {
+  console.log(
+    "Hey! You found this. If you're wondering where I got this background image, here's the link: https://type-01.com/exploring-the-captivating-ascii-realms-of-enigmatriz/"
+  );
   return (
     <div className="flex flex-col">
       <div className="flex flex-col md:flex-row justify-start flex-1 w-full min-h-[82vh] max-w-[100vw]">
