@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { developmentProjectData } from '@/lib/constants';
 import { notFound } from 'next/navigation';
+import GoBack from '@/components/BackComponent';
 
 export default async function DevelopmentPage({
   params,
@@ -20,7 +21,7 @@ export default async function DevelopmentPage({
   return (
     <div>
       <div className="p-6 border border-white flex flex-col gap-4 ">
-        <Link href="/development">Go Back</Link>
+        <GoBack />
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">{project.title}</p>
 
