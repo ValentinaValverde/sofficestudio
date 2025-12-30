@@ -1,4 +1,5 @@
 import { designPageData } from '@/lib/constants';
+import ContactSection from '@/components/home/ContactSection';
 
 export default function page() {
   return (
@@ -34,11 +35,7 @@ export default function page() {
         );
       })}
 
-      {/* <Link href="/contact" className="col-span-2 h-[200px]">
-          <div className="border border-white hover:bg-white hover:text-black duration-500 p-6 w-full h-full flex justify-center items-center">
-            <p className="text-2xl">Let&apos;s add your next project!</p>
-          </div>
-        </Link> */}
+      <ContactSection />
     </div>
   );
 }
