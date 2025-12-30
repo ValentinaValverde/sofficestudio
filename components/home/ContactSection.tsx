@@ -14,8 +14,11 @@ export default function ContactSection() {
         </div>
       </div>
 
-      <div className="p-6 border border-white h-full w-full md:w-1/2 ">
-        {/* Placeholder for something cool ;) */}
+      <div className="border border-white h-full w-full md:w-1/2 ">
+        <img
+          src="https://i.pinimg.com/1200x/0a/25/d4/0a25d47d0fe272749d618075e4abc880.jpg"
+          alt="Placeholder image"
+        />
       </div>
     </div>
   );
