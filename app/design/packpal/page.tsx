@@ -1,19 +1,10 @@
-'use client';
-import { useRouter } from 'next/navigation';
+import GoBack from '@/components/BackComponent';
 
 export default function Page() {
-  const router = useRouter();
-
   return (
     <div className="w-screen flex flex-col flex-1 border border-white">
       <div className="p-6 border border-white flex flex-col gap-4 ">
-        <p
-          onClick={() => {
-            router.back();
-          }}
-        >
-          Go Back
-        </p>
+        <GoBack />
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">PACKPAL AI</p>
           <p className="text-4xl">
