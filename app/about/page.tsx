@@ -28,7 +28,7 @@ export default function Home() {
       <div className="w-full md:w-2/3 flex items-end border border-white p-6 h-auto">
         <h1 className="text-4xl">
           Hi! My name is Val, and I&apos;m a Design Engineer with 2+ years in
-          experience building saas products and various other creative projects.
+          experience building SaaS products and various other creative projects.
           With my love for art and eye for design, I am able to fill in the gaps
           between developers and designers. I believe communication is key in
           every relationship, and I absolutely love a good sandwich.
