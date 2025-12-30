@@ -6,7 +6,7 @@ import ContactSection from '@/components/home/ContactSection';
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col md:flex-row justify-start flex-1 w-full min-h-[82vh]">
+      <div className="flex flex-col md:flex-row justify-start flex-1 w-full min-h-[82vh] max-w-[100vw]">
         <MainBlock />
         <Sidebar />
       </div>

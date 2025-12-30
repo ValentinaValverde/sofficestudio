@@ -4,7 +4,7 @@ import MobileFeaturedWorkBlock from '@/components/development/MobileFeaturedWork
 
 export default function FeaturedWorkSection() {
   return (
-    <div>
+    <div className="max-w-[100vw]">
       <div className="w-full border border-white p-6 bg-black">
         <p>Featured Work</p>
       </div>
