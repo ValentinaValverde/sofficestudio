@@ -1,10 +1,19 @@
-import Link from 'next/link';
+'use client';
+import { useRouter } from 'next/navigation';
 
-export default function page() {
+export default function Page() {
+  const router = useRouter();
+
   return (
     <div className="w-screen flex flex-col flex-1 border border-white">
       <div className="p-6 border border-white flex flex-col gap-4 ">
-        <Link href="/design">Go Back</Link>
+        <p
+          onClick={() => {
+            router.back();
+          }}
+        >
+          Go Back
+        </p>
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">MALOVA DESIGNS</p>
           <p className="text-4xl">
@@ -37,13 +46,13 @@ export default function page() {
         </div>
       </div>
 
-      <Link
+      <a
         href="https://www.malovadesigns.com/"
         target="_blank"
         className="border border-white w-full h-[200px] flex justify-center items-center bg-black hover:bg-white hover:text-black duration-500"
       >
         Visit Website
-      </Link>
+      </a>
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="border border-white w-full h-[400px] md:h-[600px] flex justify-center items-center">

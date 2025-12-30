@@ -1,10 +1,19 @@
-import Link from 'next/link';
+'use client';
+import { useRouter } from 'next/navigation';
 
-export default function page() {
+export default function Page() {
+  const router = useRouter();
+
   return (
     <div className="w-screen flex flex-col flex-1 border border-white">
       <div className="p-6 border border-white flex flex-col gap-4 ">
-        <Link href="/design">Go Back</Link>
+        <div
+          onClick={() => {
+            router.back();
+          }}
+        >
+          Go Back
+        </div>
         <div className="space-y-4 py-24">
           <p className="!font-mono font-bold">CHIPPCON</p>
           <p className="text-4xl">
