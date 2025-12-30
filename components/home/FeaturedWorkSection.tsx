@@ -1,5 +1,4 @@
 import { developmentPageData } from '@/lib/constants';
-import Block from '@/components/development/Block';
 
 export default function FeaturedWorkSection() {
   return (
@@ -8,20 +7,42 @@ export default function FeaturedWorkSection() {
         <p>Featured Work</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        {developmentPageData.map((data, index) => {
-          return (
-            <div key={index} className="col-span-2 md:col-span-1">
-              <Block
-                title={data.title}
-                description={data.description}
-                link={data.link}
-                imageUrl={data.imageUrl}
-              />
+      {developmentPageData.map((data, index) => {
+        return (
+          <a key={index} href={data.link}>
+            <div
+              className="group bg-black text-white border border-white
+            overflow-hidden transition-all duration-500 ease-out
+            max-h-[80px] hover:max-h-[500px] hover:bg-white hover:text-black p-6"
+            >
+              <div className="flex justify-between items-start">
+                <p>{data.title}</p>
+                <p
+                  className="opacity-0 transition-all duration-500 group-hover:opacity-100 
+                relative inline-block bg-gradient-to-r from-black to-black 
+                bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] hover:bg-[length:100%_2px]"
+                >
+                  View Project
+                </p>
+              </div>
+
+              {/* Hidden until hover: */}
+              <div className="flex justify-between items-end pt-36 opacity-0 transition-all duration-500 group-hover:opacity-100">
+                <p className="text-3xl max-w-1/2">
+                  Reimagined a full music analytics platform with modern UI,
+                  responsive layouts, and rebuilt core flows.
+                </p>
+
+                <img
+                  src={data.imageUrl}
+                  alt={data.description}
+                  className="w-[360px] border border-gray-200 rounded-sm"
+                />
+              </div>
             </div>
-          );
-        })}
-      </div>
+          </a>
+        );
+      })}
     </div>
   );
 }
