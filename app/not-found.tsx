@@ -21,6 +21,7 @@ export default function NotFound() {
         onClick={() => {
           router.back();
         }}
+        className="link-underline"
       >
         <p>Go Back</p>
       </div>
