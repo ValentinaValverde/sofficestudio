@@ -17,11 +17,7 @@ export default function FeaturedWorkSection() {
             >
               <div className="flex justify-between items-start">
                 <p>{data.title}</p>
-                <p
-                  className="opacity-0 transition-all duration-500 group-hover:opacity-100 
-                relative inline-block bg-gradient-to-r from-black to-black 
-                bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-[background-size] hover:bg-[length:100%_2px]"
-                >
+                <p className="opacity-0 transition-all duration-500 group-hover:opacity-100 link-underline">
                   View Project
                 </p>
               </div>
