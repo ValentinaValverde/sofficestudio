@@ -12,6 +12,7 @@ export default function page() {
       {developmentPageData.map((data, index) => {
         return (
           <a key={index} href={data.link}>
+            {/* desktop */}
             <div
               className="hidden md:block group bg-black text-white border border-white
                 transition-all duration-500 ease-out
@@ -32,6 +33,7 @@ export default function page() {
               </div>
             </div>
 
+            {/* mobile */}
             <div className="p-6 border border-white space-y-6 max-w-[100vw] block md:hidden">
               <p>{data.title}</p>
               <p className="text-3xl !text-mono">{data.description}</p>
