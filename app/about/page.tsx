@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col md:flex-row justify-start flex-1 w-full">
       <div className="w-full md:w-1/3 flex flex-row md:flex-col flex-1">
-        <div className="flex-1 flex">
+        <div className="flex-1 flex hidden md:block">
           <div className="border border-white p-6 flex justify-center items-center h-full w-full">
             <AsteriskSimple
               size={32}
@@ -15,7 +15,7 @@ export default function Home() {
         </div>
 
         <div className="flex-1 flex">
-          <div className="border border-white  h-full w-full">
+          <div className="border border-white h-full w-full">
             <img
               src="/valentina-valverde.png"
               alt="Photo of lead (and only) developer, Valentina Valverde"
