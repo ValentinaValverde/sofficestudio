@@ -14,10 +14,10 @@ export default function page() {
           <a key={index} href={data.link}>
             {/* desktop */}
             <div
-              className="hidden md:block group bg-black text-white border border-white
+              className="hidden md:flex justify-between items-stretch
+                group bg-black text-white border border-white
                 transition-all duration-500 ease-out
-                h-auto hover:bg-white hover:text-black p-6
-                flex justify-between items-stretch"
+                h-auto hover:bg-white hover:text-black p-6"
             >
               <div className="w-1/2 min-h-full flex flex-col justify-between">
                 <p>{data.title}</p>
