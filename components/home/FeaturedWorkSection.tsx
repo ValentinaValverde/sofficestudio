@@ -25,14 +25,11 @@ export default function FeaturedWorkSection() {
 
               {/* hidden until hover: */}
               <div className="flex justify-between items-end pt-36 opacity-0 transition-all duration-500 group-hover:opacity-100">
-                <p className="text-3xl max-w-1/2">
-                  Reimagined a full music analytics platform with modern UI,
-                  responsive layouts, and rebuilt core flows.
-                </p>
+                <p className="text-3xl max-w-1/2">{data.description}</p>
 
                 <img
                   src={data.imageUrl}
-                  alt={data.description}
+                  alt={data.title}
                   className="w-[360px] border border-gray-200 rounded-sm"
                 />
               </div>
